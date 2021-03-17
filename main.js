@@ -19,6 +19,6 @@ $(document).ready(function() {
 
 //delete
 $('#delete').click(function() {
-  $(this).remove();
+  $(this).parent().remove();
 })
 })
